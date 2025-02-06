@@ -10,6 +10,7 @@ import ComponentFonct from './Component/ComponentFile'
 import Counter from './Component/useEffect'
 import Timer from './Component/tableauUseEffect'
 import ColorBox from './Component/Color'
+import Events from './Component/Events'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -37,16 +38,20 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> */}
-      <Hello />
+      {/* <Hello />
       <Form labelle="First Name :" name="first name" type="text" placeholder="first name"/>
-      <Form labelle="Last Name :" name="first name" type="text" placeholder="last name"/>
+      <Form labelle="Last Name :" name="first name" type="text" placeholder="last name"/> */}
       {/* <div className="App">
       <ComponentClass />
     </div> */}
-    <ComponentFonct/>
+    {/* <ComponentFonct/>
     <Counter/>
     <Timer/>
-    <ColorBox/>
+    <ColorBox/> */}
+     <div className="App">
+      <h1 className="text-center my-4">Event Management System</h1>
+      <Events/>
+    </div>
     </>
     
 
