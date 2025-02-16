@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
-import placeholder from '../assets/placeholder.jpg'; // Assurez-vous d'avoir l'image placeholder.jpg dans le dossier assets
+import placeholder from '../assets/placeholder.jpg'; 
 
 const Event = ({ event }) => {
   return (

@@ -11,6 +11,7 @@ import Counter from './Component/useEffect'
 import Timer from './Component/tableauUseEffect'
 import ColorBox from './Component/Color'
 import Events from './Component/Events'
+import Products from './Component/Products'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -51,6 +52,10 @@ function App() {
      <div className="App">
       <h1 className="text-center my-4">Event Management System</h1>
       <Events/>
+    </div>
+     <div className="App">
+      <h1 className="text-center my-4">Product</h1>
+      <Products/>
     </div>
     </>
     
